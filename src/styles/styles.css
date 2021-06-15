@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  h1 {
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  } 
+
+html {
+    scroll-behavior: smooth;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+.header_container {
+    box-shadow: 0 3px 2px -2px gray;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #fff;
+    transition: 0.4s;
+    position: absolute;
+}
+.header_container img{
+    transition: 0.4s;
+    margin: 0 20px;
+    object-fit: cover;
+}
+
+.header_container a{
+    margin: 0 20px;
+    color: #505F98;
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 0.5s;
+}
+.header_container a:hover{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.smart_cities_container{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+    color:#505F98;
+    ;
+}
+
+.iot_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+    color: black;
+}
+.iot_item_container div{
+    padding: 0 40px 0 0;
+    text-align: justify;
+}
+
+.iot_container img {
+    max-width: 100%;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+.iot_container h1 {
+    width: 445px;
+    font-size: 20px;
+    margin: 10px 0px 40px 0px;
+}
+.iot_container h2 {
+    color: green;
+    width: 445px;
+    margin: 10px 0px 10px 0px;
+}
+.smart_cities_container h1 {
+    background: -webkit-linear-gradient(#FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    width: 500px;
+    font-size: 60px;
+    margin: 10px 0px 40px 0px;
+}
+
+.shapeDiv {
+    width: 50%;
+    display: flex;
+    left: 50%;
+    height: 70%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7e2ff99;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 71% 9% 18% 24% / 69% 0% 0% 15% ;
+}
+
+.shapeDiv img {
+ position:  relative;
+ width: 80%;
+ height: 100%;
+}
+
+section {
+    width: 100%;
+    min-height: 300px;
+}
+.wave {
+    position: relative;
+    background: linear-gradient(90deg, #f0027f, #75489f) ;
+}
+.wave:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 215px;
+    background:url('../../public/assets/images/wave.png');
+    background-size: cover;
+}
+
+.form {
+    display:  flex;
+    justify-content:  center;
+    align-items: center;
+    width: 40%;
+    background-color: rgba(215, 226, 255, 0.6);
+    height: 70%;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    border-radius: 41% 45% 48% 46% / 63% 60% 11% 14% ;
+
+}
+.iotForm {
+    display:  flex;
+    justify-content:  center;
+    align-items: center;
+    width: 40%;
+    background-color: rgba(215, 226, 255, 0.6);
+    height: 75%;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    border-radius: 50% 50% 49% 50% / 25% 25% 75% 75%  ;
+
+}
+.songdoForm {
+    display:  flex;
+    justify-content:  center;
+    align-items: center;
+    width: 40%;
+    height: 75%;
+
+}
+.songdoForm img {
+    object-fit: cover;
+    width: 90%;
+    height: 75%;
+
+}
+.xangaiForm {
+    display:  flex;
+    justify-content:  center;
+    align-items: center;
+    width: 50%;
+    height: 75%;
+
+}
+.xangaiForm img {
+    object-fit: cover;
+    width: 90%;
+    height: 75%;
+
+}
+
+.iot_item_container {
+    display: flex;
+    width: 700px;
+    font-size: 14px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.iot_item_container img {
+    width: 32px;
+    height: 32px;
+}
+
+.smart_cities_img_description_container{
+    width: 80%;
+}
+
+.smart_cities_img_description_container h3 {
+    width: 500px;
+}
+
+.iot_img_description_container {
+    padding: 25px;
+}
+.iot_img_description_container h2{
+    background: -webkit-linear-gradient(#FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    width: 500px;
+    font-size: 48px;
+    margin: 10px 0px 40px 0px;
+}
+.iot_img_description_container h3{
+    max-width: 450px;
+    margin: 10px 0px 40px 0px;
+}
+.iot_img_description_container a{
+    margin: 10px 0px 40px 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
